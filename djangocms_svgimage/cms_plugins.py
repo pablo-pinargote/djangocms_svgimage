@@ -16,7 +16,7 @@ class SVGImagePlugin(CMSPluginBase):
         return 'djangocms_svgimage/default/svgimage.html'
 
     def render(self, context, instance, placeholder):
-        inline_styles = []
+        inline_styles = ['max-width: 100%;']
         if instance.width:
             inline_styles.append(f'width: {instance.width};')
         if instance.height:
