@@ -1,0 +1,2 @@
+recursive-include djangocms_picture/templates *
+recursive-exclude * *.py[co]
