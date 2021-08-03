@@ -9,6 +9,7 @@ from djangocms_svgimage.models import SVGImage
 class SVGImagePlugin(CMSPluginBase):
     model = SVGImage
     name = _('SVG Image')
+    text_enabled = True
     cache = False
 
     @staticmethod
