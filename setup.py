@@ -7,7 +7,7 @@ REQUIREMENTS = [
 
 setuptools.setup(
     name="djangocms_svgimage",
-    version="1.0.7",
+    version="1.0.8",
     author="Pablo Pinargote",
     author_email="pablo.pinargote@outlook.com",
     description="Plugin for django CMS that allows you to add SVG images on your site.",
@@ -18,5 +18,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=REQUIREMENTS,
+    include_package_data=True,
     python_requires='>=3.6',
 )
