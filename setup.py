@@ -7,11 +7,11 @@ REQUIREMENTS = [
 
 setuptools.setup(
     name="djangocms_svgimage",
-    version="1.0.9",
+    version="1.0.10",
     author="Pablo Pinargote",
     author_email="pablo.pinargote@outlook.com",
     description="Plugin for django CMS that allows you to add SVG images on your site.",
-    url='https://github.com/pablo-pinargote/django-cms-svgimage',
+    url='https://github.com/pablo-pinargote/djangocms_svgimage',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
