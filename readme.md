@@ -1,6 +1,6 @@
 # djangocms SVG Image plugin
 
-Since djangocms_picture pluging does not allow us to use SVG files, we code this small plugin. It is inteded to be very simple but useful to insert SVG images on your pages as need it.
+Since djangocms_picture pluging does not allow us to use SVG files, we code this small plugin. It is inteded to be very simple but useful to insert SVG images on our pages as need it.
 
 ## Setup
 
